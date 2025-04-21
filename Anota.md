@@ -60,7 +60,7 @@ git add .
 ```
 
 ```
-git commit m- "Mensagem sobre o commit" ex: "Atualiza pacotes"
+git commit -m "Mensagem sobre o commit" ex: "Atualiza pacotes"
 ```
 
 ```

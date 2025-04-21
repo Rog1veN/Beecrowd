@@ -7,13 +7,9 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        double Codigo = sc.nextDouble();
-        double Numero = sc.nextDouble();
-        double Valor = sc.nextDouble();
+        double valor = sc.nextDouble();
 
-        double TOTAL = (Salario + Vendas * 0.15);
-
-        System.out.printf("TOTAL = R$ %.2f\n", TOTAL);
+        System.out.printf("TOTAL = R$ %.2f\n", valor);
         sc.close();
     }
 
