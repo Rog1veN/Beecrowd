@@ -8,6 +8,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
+<<<<<<< HEAD
         String input = sc.nextLine();
         String[] inputVetor = input.split(" ");
         double x1 = Double.parseDouble(inputVetor[0]);
@@ -24,6 +25,11 @@ public class Main {
 
         System.out.printf("%.4f\n", distancia1);
 
+=======
+        double valor = sc.nextDouble();
+
+        System.out.printf("TOTAL = R$ %.2f\n", valor);
+>>>>>>> 57087ceafc8a2a81e0ed00930bcecfd465db9228
         sc.close();
     }
 }
