@@ -60,9 +60,24 @@ git add .
 ```
 
 ```
-git commit m- "Mensagem sobre o commit" ex: "Atualiza pacotes"
+git commit -m "Mensagem sobre o commit" ex: "Atualiza pacotes"
 ```
 
 ```
 git push
 ```
+# Leitura em uma linha
+Ler a entrada como string
+String input = sc.nextLine();
+String[] cadeiaChar = input.split(" ");
+
+# Cast no java
+
+String variavel = "5";
+int numero = Integer.parseInt(variavel);
+
+String sophya = "1.73";
+double altura = Double.parseDouble(sophya);
+
+
+
