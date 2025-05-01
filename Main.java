@@ -24,7 +24,8 @@ public class Main
 
         int um = (n % 100 % 50 % 20 % 10 % 5 % 2);
 
-        
+        System.out.println (n);
+
         System.out.println(cem + " nota(s) de R$ 100,00");
 
         System.out.println(cinquenta + " nota(s) de R$ 50,00");
