@@ -71,7 +71,7 @@ Ler a entrada como string
 String input = sc.nextLine();
 String[] cadeiaChar = input.split(" ");
 
-# Cast no java
+# Cast no java (string para int e double)
 
 String variavel = "5";
 int numero = Integer.parseInt(variavel);
@@ -79,6 +79,13 @@ int numero = Integer.parseInt(variavel);
 String sophya = "1.73";
 double altura = Double.parseDouble(sophya);
 
+# Cast no java (double para int)
+
+Apenas colocar um int antes 
+
+double totalDias = 450.0;
+
+int anos = (int) (totalDias / 365);
 
 # Tipos de divisões
 

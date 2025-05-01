@@ -11,9 +11,9 @@ public class Main {
 
         int anos = (int) (totalDias / 365);
 
-        double meses = (totalDias % 365);
+        int meses = (int) (totalDias % 365) / 30 ;
 
-        double dias = totalDias % meses;
+        int dias = (int) (totalDias % 365) % 30;
 
         System.out.println(anos + " ano(s)");
         
