@@ -80,4 +80,11 @@ String sophya = "1.73";
 double altura = Double.parseDouble(sophya);
 
 
+# Tipos de divisões
+
+![alt text](image-1.png)
+
+
+
+
 

@@ -7,32 +7,23 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        int n = sc.nextInt();
+        double totalDias = sc.nextDouble();
 
-        int s = (n);
-
-        int m = (n / 60);
-
-        int h = (n / 60 / 60);
+        double anos = Integer.parseInt((totalDias / 365));
 
 
-        if (s >= 3600){
 
-        System.out.println(h + ":" + (m - h * 60) + ":" + (s - m * 60));
+        double meses = (totalDias % 365);
 
-        }
+        double dias = totalDias % meses;
+
+        System.out.println(anos + " ano(s)");
         
-        else if  (s >= 60){ 
+        System.out.println(meses + " mes(es)");
         
-        System.out.println("0:" + m + ":" + (s - m * 60));
-
-    
-    } 
-        else if (s < 60){
-
-            System.out.println("0:0:" + s);
-        }
+        System.out.println(dias + " dia(s)");
 
         sc.close();
     }
+
 }
