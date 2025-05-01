@@ -9,9 +9,7 @@ public class Main {
 
         double totalDias = sc.nextDouble();
 
-        double anos = Integer.parseInt((totalDias / 365));
-
-
+        int anos = (int) (totalDias / 365);
 
         double meses = (totalDias % 365);
 
