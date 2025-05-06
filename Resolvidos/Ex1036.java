@@ -1,4 +1,4 @@
-addimport java.io.IOException;
+import java.io.IOException;
 import java.util.Scanner;
 import java.lang.Math;
 
@@ -33,6 +33,8 @@ public class Ex1036 {
         System.out.printf("R1 = %.5f\n", xisum);
 
         System.out.printf("R2 = %.5f\n", xisdois);
+
+        sc.close();
 
     }
 }
