@@ -17,6 +17,7 @@ public class Ex1036 {
 
         double C = Double.parseDouble(inputVetor[2]);
 
+
         double delta = (B * B) - (4 * A * C);
 
         if (A == 0.0 || delta < 0) {
