@@ -66,7 +66,7 @@ git commit -m "Mensagem sobre o commit" ex: "Atualiza pacotes"
 ```
 git push
 ```
-# Leitura em uma linha
+# Leitura em uma linha VETOR
 Ler a entrada como string
 String input = sc.nextLine();
 String[] cadeiaChar = input.split(" ");
