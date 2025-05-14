@@ -6,7 +6,6 @@ public class Livro {
     private String autor;
     private String categoria;
 
-
     //construtores
     public Livro(String titulo, String autor, String categoria) {
         this.titulo = titulo;
@@ -18,18 +17,17 @@ public class Livro {
     }
 
     //getters
-    public String getTitulo(){
+    public String getTitulo() {
         return titulo;
     }
 
-    public String getAutor(){
+    public String getAutor() {
         return autor;
     }
 
-    public String getCategoria(){
+    public String getCategoria() {
         return categoria;
     }
-
 
     //métodos para o hashmap
     @Override
@@ -39,15 +37,20 @@ public class Livro {
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (!(obj instanceof Livro)) return false;
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof Livro)) {
+            return false;
+        }
         Livro outro = (Livro) obj;
-        return this.titulo.equalsIgnoreCase(outro.titulo) &&
-               this.autor.equalsIgnoreCase(outro.autor);
+        return this.titulo.equalsIgnoreCase(outro.titulo)
+                && this.autor.equalsIgnoreCase(outro.autor);
     }
-    
+
     @Override
     public int hashCode() {
         return titulo.toLowerCase().hashCode() + autor.toLowerCase().hashCode();
     }
+
 }
