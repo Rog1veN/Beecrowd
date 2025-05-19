@@ -22,6 +22,7 @@ public class Ex1013 {
         else if (B >= A && B >= C) {
 
             System.out.println(B + " eh o maior");
+        
         } else {
 
             System.out.println(C + " eh o maior");
